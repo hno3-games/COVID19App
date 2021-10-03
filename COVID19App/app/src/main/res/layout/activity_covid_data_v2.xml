@@ -9,6 +9,7 @@
     tools:context=".Covid_Data_Activity">
 
     <LinearLayout
+        android:id="@+id/today_deaths"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
@@ -20,7 +21,7 @@
             app:srcCompat="@drawable/world" />
 
         <TextView
-            android:id="@+id/textView9"
+            android:id="@+id/country_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
@@ -30,7 +31,7 @@
             android:textSize="40sp" />
 
         <TextView
-            android:id="@+id/textView11"
+            android:id="@+id/continent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
@@ -40,7 +41,7 @@
             android:textSize="20sp" />
 
         <TextView
-            android:id="@+id/textView12"
+            android:id="@+id/population"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
@@ -57,7 +58,7 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView13"
+                android:id="@+id/total_cases"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -65,7 +66,7 @@
                 android:textColor="@color/black" />
 
             <TextView
-                android:id="@+id/textView14"
+                android:id="@+id/today_cases"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -81,7 +82,7 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView15"
+                android:id="@+id/total_deaths"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -105,7 +106,7 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView17"
+                android:id="@+id/total_recovered"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -113,7 +114,7 @@
                 android:textColor="@color/black" />
 
             <TextView
-                android:id="@+id/textView18"
+                android:id="@+id/today_recovered"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -129,7 +130,7 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView19"
+                android:id="@+id/actives"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -137,7 +138,7 @@
                 android:textColor="@color/black" />
 
             <TextView
-                android:id="@+id/textView20"
+                android:id="@+id/criticals"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"

@@ -121,10 +121,12 @@ public class HomeFragment extends Fragment {
                 if(!(country.trim().equals("Countries"))) {
                     if((country.trim().equals("All World"))){
                         Intent intent = new Intent(getContext(), Covid_Data_Activity_v2.class);
+                        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                         startActivity(intent);
                     }
                     else{
                         Intent intent = new Intent(getContext(),Covid_Data_Activity.class);
+                        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                         intent.putExtra("country", country);
                         startActivity(intent);
                     }
